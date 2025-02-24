@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login</title>
+
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="./assets/css/stylehome.css">
+</head>
+<body style="margin: 0; padding-left:0;">
+
+<section class="form-container">
+   <form id="login-form">
+      <h3>Login Now</h3>
+      <p>Your email <span>*</span></p>
+      <input type="email" id="email" placeholder="Enter your email" required maxlength="50" class="box">
+      <p>Your password <span>*</span></p>
+      <input type="password" id="password" placeholder="Enter your password" required maxlength="20" class="box">
+      <input type="submit" value="Login" class="btn">
+      <p id="error-message" style="color: red; display: none;">Invalid email or password</p>
+   </form>
+</section>
+
+<!-- Custom JS -->
+<script src="/assets/js/homescript.js"></script>
+
+</body>
+</html>
