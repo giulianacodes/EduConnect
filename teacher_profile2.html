@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Perfil del Tutor</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="./assets/css/stylehome.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">EduConectate</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="./assets/images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">David Torres</h3>
+         <p class="role">Estudiante</p>
+         <a href="profile.html" class="btn">Ver Perfil</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="./assets/images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">David Torres</h3>
+      <p class="role">Estudiante</p>
+      <a href="profile.html" class="btn">Ver Perfil</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Inicio</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>Conócenos</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Tutores</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contactanos</span></a>
+   </nav>
+
+</div>
+
+<section class="teacher-profile">
+
+   <h1 class="heading">Perfil</h1>
+
+   <div class="details">
+      <div class="tutor">
+         <img src="./assets/images/pic-4.jpg" alt="">
+         <h3>Saul Sandoval</h3>
+         <span>Estudiante de Ingeniería en Telecomunicaciones</span>
+      </div>
+      
+      <div class="social-link">
+         <a href="https://www.linkedin.com/in/Gabriela-Martinez/" class="instagram" target="_blank">
+           <ion-icon name="logo-linkedin"></ion-icon>
+         </a>
+
+      </div>
+
+      <div class="flex">
+         <p>Experiencia :<span>05 Tutorias</span></p>
+         <p>Clases Impartidas a ti : <span>1</span></p>
+         <p>Nivel de Aprobacion : <span>4.5/5</span></p>
+         <p>Total de Comentarios : <span>02</span></p>
+      </div>
+   </div>
+
+</section>
+s
+<section class="courses">
+
+   <h1 class="heading">Clases que Imparte</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="thumb">
+            <img src="./assets/images/curs1.png" alt="">
+            <span>RESERVA</span>
+         </div>
+         <h3 class="title">Fisica Elemental</h3>
+         <a href="playlist.html" class="inline-btn">RESERVAR</a>
+      </div>
+
+      <div class="box">
+         <div class="thumb">
+            <img src="./assets/images/curs4.png" alt="">
+            <span>RESERVA</span>
+         </div>
+         <h3 class="title">Algebra</h3>
+         <a href="playlist.html" class="inline-btn">RESERVA</a>
+      </div>
+
+      <div class="box">
+         <div class="thumb">
+            <img src="./assets/images/curs3.png" alt="">
+            <span>RESERVA</span>
+         </div>
+         <h3 class="title">Preparacion PAA</h3>
+         <a href="playlist.html" class="inline-btn">RESERVA</a>
+      </div>
+
+   
+
+   </div>
+
+</section>
+
+
+<section class="comments">
+
+   <h1 class="heading">2 COMENTARIOS</h1>
+
+   <form action="" class="add-comment">
+      <h3>Redacta un comentario</h3>
+      <textarea name="comment_box" placeholder="enter your comment" required maxlength="1000" cols="30" rows="10"></textarea>
+      <input type="submit" value="add comment" class="inline-btn" name="add_comment">
+   </form>
+
+   <h1 class="heading">COMENTARIOS DE LOS USUARIOS</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="user">
+            <img src="./assets/images/pic-1.jpg" alt="">
+            <div>
+               <h3>David Torres</h3>
+               <span>22-02-2025</span>
+            </div>
+         </div>
+         <div class="comment-box">Me gusto como daba la clase fue muy tranquilo.</div>
+         <form action="" class="flex-btn">
+            <input type="submit" value="edit comment" name="edit_comment" class="inline-option-btn">
+            <input type="submit" value="delete comment" name="delete_comment" class="inline-delete-btn">
+         </form>
+      </div>
+
+
+      <div class="box">
+         <div class="user">
+            <img src="./assets/images/pic-3.jpg" alt="">
+            <div>
+               <h3>Misael Espinoza</h3>
+               <span>10-03-2025</span>
+            </div>
+         </div>
+         <div class="comment-box">Logre entender como funcionan la matrices, te lo agradezco mucho!!
+         </div>
+      </div>
+
+    
+
+      
+      </div>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; copyright @ 2025 by <span>Educonectate</span> | all rights reserved!
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+   
+</body>
+</html>

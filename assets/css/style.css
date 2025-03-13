@@ -1331,3 +1331,19 @@ footer { background: var(--oxford-blue); }
 }
 
 .copyright a:hover { color: var(--ultramarine-blue); }
+
+box {
+  position: relative; /* Para que la estrella se posicione respecto a este div */
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.star-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 10px; /* Mueve la estrella a la izquierda */
+  font-size: 32px; /* Hace la estrella más grande */
+  color: purple; /* Color morado */
+}
