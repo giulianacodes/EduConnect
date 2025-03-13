@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registrarse</title>
+
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="./assets/css/stylehome.css">
+</head>
+<body style="margin: 0; padding-left:0;">
+
+<section class="form-container">
+    <form action="" method="post" enctype="multipart/form-data" id="registro-form">
+      <h3>Registrarte ahora</h3>
+      <p>Nombre<span>*</span></p>
+      <input type="text" name="name" placeholder="Ingresa tu nombre" required maxlength="50" class="box">
+      <p>Correo<span>*</span></p>
+      <input type="email" name="email" placeholder="Ingresa tu correo" required maxlength="50" class="box">
+      <p>Contraseña<span>*</span></p>
+      <input type="password" name="pass" placeholder="Ingresa tu contraseña" required maxlength="20" class="box">
+      <p>Confirmar Contraseña<span>*</span></p>
+      <input type="password" name="c_pass" placeholder="Confirma tu contraseña" required maxlength="20" class="box">
+      <input type="submit" value="Registrar ahora" name="submit" class="btn">
+      <!-- Enlace para redirigir al login -->
+      <p class="login-link">¿Ya tienes una cuenta? <a href="login.html">¡Ingresa aquí!</a></p>   </form>
+</section>
+
+<!-- Custom JS -->
+<script src="./assets/js/homescript.js"></script>
+
+</body>
+</html>

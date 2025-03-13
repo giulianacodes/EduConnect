@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método de Pago</title>
+    <link rel="stylesheet" href="./assets/css/metodoPago.css">
+</head>
+
+<body>
+
+    <section class="container">
+        <form action="" id="pago-form">
+            <div class="row">
+                <div class="column">
+                    <h3 class="title">Dirección de Facturación</h3>
+                    <div class="input-box">
+                        <span>Nombre Completo :</span>
+                        <input type="text" placeholder="Giuliana Matamoros" value="Giuliana Matamoros" required>
+                    </div>
+                    <div class="input-box">
+                        <span>Correo Electrónico :</span>
+                        <input type="email" placeholder="ejemplo@ejemplo.com" value="giuliana@example.com" required>
+                    </div>
+                    <div class="input-box">
+                        <span>Dirección :</span>
+                        <input type="text" placeholder="Habitación - Calle - Localidad" value="Colonia Palmira, Calle Principal" required>
+                    </div>
+                    <div class="input-box">
+                        <span>Ciudad :</span>
+                        <input type="text" placeholder="Tegucigalpa" value="Tegucigalpa" required>
+                    </div>
+
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>Estado :</span>
+                            <input type="text" placeholder="Francisco Morazan" value="Francisco Morazán" required>
+                        </div>
+                        <div class="input-box">
+                            <span>Código Postal :</span>
+                            <input type="number" placeholder="11101" value="11101" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3 class="title">Pago</h3>
+                    <div class="input-box">
+                        <span>Tarjetas Aceptadas :</span>
+                        <img src="./assets/images/imgcards.png" alt="">
+                    </div>
+                    <div class="input-box">
+                        <span>Nombre en la Tarjeta :</span>
+                        <input type="text" placeholder="Giuliana Matamoros" value="Giuliana Matamoros" required>
+                    </div>
+                    <div class="input-box">
+                        <span>Número de Tarjeta :</span>
+                        <input type="number" placeholder="1111 2222 3333 4444" value="1111222233334444" required>
+                    </div>
+                    <div class="input-box">
+                        <span>Mes de Expiración :</span>
+                        <input type="text" placeholder="Agosto" value="Agosto" required>
+                    </div>
+                
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>Año de Exp. :</span>
+                            <input type="number" placeholder="2025" value="2025" required>
+                        </div>
+                        <div class="input-box">
+                            <span>CVV :</span>
+                            <input type="number" placeholder="123" value="123" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn">Pagar</button>
+        </form>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="./assets/js/homescript.js"></script>
+</body>
+
+</html>
